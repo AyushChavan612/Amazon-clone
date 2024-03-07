@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #0f1111;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.nav_bar a img{
+    /* img  , div ke anddar dala hua kuch bhi tabhi diherga jab tum usse kuch height and width dete ho */
+    height: 70px;
+    width: 113px;
+}
+
+.border{
+    /* dekho jab hum kabhi koi chijo pe hover krte hai ya click krte hia fir uspe border aa jati hai hum same effect jhamare ismai bhi add krte hai but jab wo border aati hai to wo hilta hai san content to kya krne ke jisko tum wo border dene wale ho usko already wo border de deni bs uska color trasnparent set kr dene ka */
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.nav_address{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_address .icon_address{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_address .upper_address {
+    font-size: 12px;
+    color: #cccccc;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+.icon_address span{color: white;}
+
+.nav_address .icon_address a {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.nav_bar .search_bar:hover{
+   border: 3px solid #febd68;
+   border-radius: 8px;
+}
+
+.search_bar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 3px solid transparent;
+    border-radius: 8px;
+   
+}
+
+.search_bar .text_bar{
+    width: 620px;
+    font-size: 1rem;
+    height: 40px;
+    border: none;
+}
+
+
+.search_bar button{
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+    height: 40px;
+    width: 45px;
+    background-color: #febd68;
+    border: none;
+}
+
+.search_bar .select_bar{
+    color: #f3f3f3;
+    height: 40px;
+    width: 45px;
+   text-align: center;
+    color: black;
+    border-top-left-radius: 5px;
+    border-end-start-radius: 5px;
+    border: none;
+}
+
+.nav_bar .language select{
+   background-color: #0f1111;
+   color: white;
+   font-weight: 800;
+   border: none;
+}
+
+.nav_bar .sign_in .uppertext{
+    margin-left: 4px;
+    color: white;
+    font-size: 12px;
+}
+
+.nav_bar .sign_in .lowertext{
+    font-size: 14px;
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
+
+.nav_bar .return .uppertext{
+    margin-left: 4px;
+    color: white;
+    font-size: 12px;
+}
+
+.nav_bar .return .lowertext{
+    font-size: 14px;
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
+
+.nav_bar .cart_icon span{
+    color: white;
+    font-size: 35px;
+}
+
+.nav_bar .cart_icon .cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    
+}
+
+.second_nav{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.second_nav p {
+    margin-left: 19px;
+}
+
+.menu{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.second_nav .menu span{
+    font-size: 1.5rem
+}
+
+.hero_section{
+    background-image: url(./hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero_section .hero_msg {
+    height: 40px;
+    background-color: white;
+    color: black;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+
+}
+
+.hero_section .hero_msg a {
+    text-decoration: none;
+    color: #007185
+}
+
+main{
+    background-color: #e2e7e6;
+}
+
+.shop_section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+
+.shop_section img{
+    width: 90%;
+    height: 70%;
+    align-self: center;
+}
+
+.content{
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.shop_section .box a{
+    color: #007185;
+}
+
+footer{
+    margin-top: 25px;
+}
+
+.foot_pannel1{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.footer_pannel2{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    min-width: 1000px;
+    background-color: #232F3E;
+    color: white;
+}
+
+.footer_pannel2 div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.footer_pannel2 div a,.footer_head{
+    text-decoration: none;
+    color: white;
+    text-size-adjust: 14px;
+    margin-bottom: 15px;
+}
+
+.footer_pannel3{
+    height: 100px;
+    background-color: #232F3E;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+.footer_pannel3 select{
+    background-color:#232F3E;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border: 0.7px solid rgba(255,255,255,0.5);
+    height: 40px;
+    padding: 5px;
+
+}
+
+.footer_pannel3 span{
+    border: 0.7px solid rgba(255,255,255,0.5);
+    margin-left: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.footer_pannel3 img{
+    margin-right: 100px;
+}
+
+.footer_pannel4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 100px;
+    background-color: #131A22;
+}
